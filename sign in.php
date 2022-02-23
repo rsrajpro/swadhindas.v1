@@ -85,7 +85,7 @@ else{
         <input type="text" name="email" placeholder="Type Your Email or Username" class="shadow-c form-control shadow-none border-none p-3"><br>
         <input type="password" name="password" placeholder="Type Your Password" class="shadow-c form-control shadow-none border-none p-3"><br>
         <button name="login" class="btn g-c-1 round-5 form-control none-shadow shadow-none p-3 fs-5">Login</button><br><br>
-        <p>New to Picoworkers? <a href="#">Create an account</a></p>
+        <p>New to Swadhin? <a href="./sign up.php">Create an account</a></p>
     </form>
     </div>
 </div>
