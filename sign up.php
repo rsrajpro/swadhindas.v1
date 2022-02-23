@@ -41,6 +41,9 @@ if(isset($_POST['signup'])){
     .border-top-1px{
         border-top: 1px solid black;
     }
+    .g-c-1{
+        background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+    }
 </style>
 
 <center class="border-top-1px">   
@@ -70,8 +73,8 @@ if(isset($_POST['signup'])){
         <input type="text" name="phone" placeholder="Type Your phone number" class="form-control shadow-none border-none p-3"><br>
         <input type="password" name="password" placeholder="Type Your Password*" class="form-control shadow-none border-none p-3" required><br>
         <input type="password" name="repassword" placeholder="Type Your Re-Password*" class="form-control shadow-none border-none p-3" required><br>
-        <button name="signup" class="btn btn-success form-control none-shadow shadow-none p-3" id="liveToastBtn">SignUP</button><br><br>
-        <p>Have an account? <a href="#">Create an account</a></p>
+        <button name="signup" class="btn g-c-1 form-control none-shadow shadow-none p-3" id="liveToastBtn">SignUP</button><br><br>
+        <p>Have an account? <a href="./sign in">Login an Account</a></p>
     </form>
     </div>
 </div>
